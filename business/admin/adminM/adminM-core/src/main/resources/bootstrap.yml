@@ -1,0 +1,65 @@
+spring:
+  application:
+    name: admin-server
+#  profiles:
+#    active: dev
+#
+  zipkin:
+    base-url: http://192.168.238.128:9411/ #zipkin地址，必须写http://
+  sleuth:
+      sampler:
+        rate: 100  #指定采样比例，默认10%
+
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 192.168.238.128:8080
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 192.168.238.128:8848
+            rule-type: flow
+            data-id: sentinel-flow-ds1
+            data-type: json
+
+    nacos:
+      discovery:
+        server-addr: 192.168.238.128:8848
+
+      config:
+        server-addr: 192.168.238.128:8848
+        password: nacos
+        username: nacos
+        extension-configs:
+          - dataId: base-server-dev
+  rabbitmq:
+    host: 192.168.238.128
+
+
+server:
+  port: 8090
+
+seata:
+  service:
+    grouplist:
+      seata-server: 192.169.238.128:8091
+  enable-auto-data-source-proxy: false
+  enabled: true
+  config:
+    type: nacos
+    nacos:
+      server-addr: 192.168.238.128:8848
+      data-id: seataServer.properties
+      group: DEFAULT_GROUP
+  registry:
+    nacos:
+      application: seata-server
+      server-addr: 192.168.238.128:8848
+      group: SEATA_GROUP
+  tx-service-group: my_tx_group
+
+
+
+
+
+

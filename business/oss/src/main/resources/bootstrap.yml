@@ -1,0 +1,16 @@
+server:
+  port: 8092
+spring:
+  application:
+    name: oss-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.238.128:8848
+
+      config:
+        server-addr: 192.168.238.128:8848
+        password: nacos
+        username: nacos
+        extension-configs:
+          - dataId: base-server-dev

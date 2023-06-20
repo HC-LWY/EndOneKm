@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.endOneKm.mapper.TransferMapper">
+
+
+    <update id="delTransfer">
+        update t_transfer set transfer_status =0 where transfer_id=#{transferId}
+    </update>
+
+    <select id="selectByTown" resultType="map">
+        select transfer_name,transfer_id from t_transfer where transfer_affiliation=#{town}
+    </select>
+
+    <select id="selectAccount" resultType="java.util.Map">
+        select * from t_admin where user_name=#{user_name}
+    </select>
+
+    <select id="selectCurrentAdmin" resultType="java.lang.String">
+        select transfer_charge  from t_transfer where transfer_id=#{transferId}
+    </select>
+
+    <select id="selectStatus" resultType="java.lang.Integer">
+        select user_status from t_admin where user_name =#{userName}
+    </select>
+</mapper>

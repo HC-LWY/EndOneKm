@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/abilit/Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/abilit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/abilit/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/Express/post-express/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/Express/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/Express/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/Express/transfer-express/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/admin/adminM/adminM-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/admin/adminM/adminM-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/admin/adminM/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/admin/adminM/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/admin/siteM/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/oss/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/post/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/transfer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-rabbitMQ/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-seata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/commons-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/admin-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/express-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/express-data/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/express-data2/post-express-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/express-data2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/express-data2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/express-data2/transfer-express-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/express/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/oss-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/post-express-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/site-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/transfer-express-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/web-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

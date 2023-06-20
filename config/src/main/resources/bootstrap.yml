@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.238.128:8848
+
+      config:
+        server-addr: 192.168.238.128:8848
+        password: nacos
+        username: nacos
+        extension-configs:
+          - dataId: admin-server-dev
+
+

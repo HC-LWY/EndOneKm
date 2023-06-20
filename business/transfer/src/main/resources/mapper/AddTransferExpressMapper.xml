@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.endOneKm.mapper.AddTransferExpressMapper">
+
+    <select id="selectPostExpress" resultType="java.util.Map">
+        select * from t_post_express where express_id=#{expressId} and outbound=#{siteName} and express_status=0
+    </select>
+
+    <select id="selectTransferExpress" resultType="java.util.Map">
+        select * from t_transfer_express where express_id=#{expressId} and outbound=#{siteName} and express_status=0
+    </select>
+
+    <select id="selectPost" resultType="string">
+        select post_name from t_post where post_affiliation=#{town}
+    </select>
+
+    <update id="updatePStatus">
+        update t_post_express set express_status=1,outbound_time=#{outTime} where site_name =#{siteName} and express_id=#{expressId}
+    </update>
+
+    <update id="updateTStatus">
+        update t_transfer_express set express_status=1,outbound_time=#{outTime} where site_name =#{siteName} and express_id=#{expressId}
+    </update>
+
+    <select id="selectTransfer" resultType="java.lang.String">
+        select transfer_name from t_transfer where transfer_affiliation =#{town}
+    </select>
+
+    <select id="selectTransferNameById" resultType="java.lang.String">
+        select transfer_name from t_transfer where transfer_id =#{transferId}
+    </select>
+
+</mapper>

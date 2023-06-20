@@ -1,0 +1,36 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: express-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.238.128:8848
+
+      config:
+        server-addr: 192.168.238.128:8848
+        password: nacos
+        username: nacos
+        extension-configs:
+          - dataId: base-server-dev
+
+seata:
+  service:
+    grouplist:
+      seata-server: 192.169.238.128:8091
+  enable-auto-data-source-proxy: false
+  enabled: true
+  config:
+    type: nacos
+    nacos:
+      server-addr: 192.168.238.128:8848
+      data-id: seataServer.properties
+      group: DEFAULT_GROUP
+  registry:
+    nacos:
+      application: seata-server
+      server-addr: 192.168.238.128:8848
+      group: SEATA_GROUP
+  tx-service-group: my_tx_group

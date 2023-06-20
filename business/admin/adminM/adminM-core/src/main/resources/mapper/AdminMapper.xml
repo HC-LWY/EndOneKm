@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.endOneKm.mapper.AdminMapper">
+
+
+    <update id="delStatus">
+        update t_admin set user_status=0 where account_name=#{accountName}
+    </update>
+
+    <select id="selectByUserName" resultType="com.qf.endOneKm.dto.Admin">
+        select * from t_admin where user_name=#{userName}
+    </select>
+
+    <update id="update2">
+        update t_student set name =#{name} where id =#{id}
+    </update>
+</mapper>

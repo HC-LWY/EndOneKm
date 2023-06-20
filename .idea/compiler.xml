@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="siteM" />
+        <module name="post-express-data" />
+        <module name="web-data" />
+        <module name="commons-redis" />
+        <module name="commons-seata" />
+        <module name="commons-rabbitMQ" />
+        <module name="oss" />
+        <module name="commons-web" />
+        <module name="post-express" />
+        <module name="transfer" />
+        <module name="admin-data" />
+        <module name="post" />
+        <module name="Gateway" />
+        <module name="adminM-feign" />
+        <module name="adminM-core" />
+        <module name="user" />
+        <module name="oss-data" />
+        <module name="config" />
+        <module name="site-data" />
+        <module name="transfer-express-data" />
+        <module name="commons-mybatis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="express" target="8" />
+      <module name="express-data" target="8" />
+      <module name="transfer-express" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Express" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="abilit" options="-parameters" />
+      <module name="admin" options="-parameters" />
+      <module name="admin-data" options="-parameters" />
+      <module name="adminM" options="-parameters" />
+      <module name="adminM-core" options="-parameters" />
+      <module name="adminM-feign" options="-parameters" />
+      <module name="business" options="-parameters" />
+      <module name="commons-mybatis" options="-parameters" />
+      <module name="commons-rabbitMQ" options="-parameters" />
+      <module name="commons-redis" options="-parameters" />
+      <module name="commons-seata" options="-parameters" />
+      <module name="commons-web" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="data" options="-parameters" />
+      <module name="express" options="-parameters" />
+      <module name="express-data" options="-parameters" />
+      <module name="oss" options="-parameters" />
+      <module name="oss-data" options="-parameters" />
+      <module name="post" options="-parameters" />
+      <module name="post-express" options="-parameters" />
+      <module name="post-express-data" options="-parameters" />
+      <module name="site-data" options="-parameters" />
+      <module name="siteM" options="-parameters" />
+      <module name="transfer" options="-parameters" />
+      <module name="transfer-express" options="-parameters" />
+      <module name="transfer-express-data" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="web-data" options="-parameters" />
+    </option>
+  </component>
+</project>
